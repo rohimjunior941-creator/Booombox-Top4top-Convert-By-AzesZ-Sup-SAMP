@@ -11,3 +11,6 @@ Ini adalah Bot Discord dari Node JS yang bekerja convert link YouTube, Tiktok, D
 # PENGGUNAAN
 1. /boombox setup, terlebih dahulu.
 2. langsung bisa di gunakan
+
+Bertanya lebih lengkap pergi ke Discord:
+https://dsc.gg/azeszpage
