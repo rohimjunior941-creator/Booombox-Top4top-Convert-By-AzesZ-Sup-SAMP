@@ -17,7 +17,7 @@ const {
     resetGuildSettings,
 } = require('../../utils/boomboxSettingsStore');
 
-const BOT_NAME = '🎧 AzesZ BOT';
+const BOT_NAME = '🎧 Versbot';
 
 function bitrateLabel(bitrate) {
     if (bitrate === 'auto') return '🤖 Auto';
@@ -214,7 +214,7 @@ module.exports = {
                     )
                     .addSeparatorComponents(new SeparatorBuilder())
                     .addTextDisplayComponents(
-                        new TextDisplayBuilder().setContent(`-# ${BOT_NAME}  |  /boombox settings`),
+                        new TextDisplayBuilder().setContent(`-# ${Versbot}  |  /boombox settings`),
                     );
 
                 return interaction.reply({ components: [container], flags: MessageFlags.IsComponentsV2, ephemeral: true });
@@ -260,7 +260,7 @@ module.exports = {
                 )
                 .addSeparatorComponents(new SeparatorBuilder())
                 .addTextDisplayComponents(
-                    new TextDisplayBuilder().setContent(`-# ${BOT_NAME}  |  /boombox settings`),
+                    new TextDisplayBuilder().setContent(`-# ${Versbot}  |  /boombox settings`),
                 );
 
             return interaction.reply({ components: [container], flags: MessageFlags.IsComponentsV2, ephemeral: true });
